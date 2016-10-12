@@ -1,0 +1,84 @@
+body {
+	/*background-image: url("images/tomatobanner.png");*/
+	/*background-repeat: repeat-y;*/
+	background-color: SandyBrown;
+}
+
+h1 {
+	background-image: url("images/tomatobanner.png");
+	background-repeat: repeat-x;
+	color: white;
+	text-shadow: 10px 10px 10px #000000;
+	position: relative;
+	left: 25%; /*need to not shift banner background*/
+}
+
+#title {
+	font-family: sans-serif;
+	font-size: 36pt;
+	font-weight: bold;
+	color: #114400;
+	text-shadow: 4px 4px 4px #999999;
+	margin: 20px;
+	text-align: center;
+}
+
+#mainBlock {
+	width: 800px;
+	margin: auto;
+	border: 8px solid #999999;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+#totalRating {
+	background-color: #114400;
+	font-size: 64pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #ff2211;
+}
+
+#summary {
+	background-color: #558822;
+	width: 250px;
+	float: right;
+}
+
+#summary dl {
+	padding-left: 10px;
+}
+
+#leftReviews {
+	float: left;
+	width: 275px;
+}
+
+#rightReviews {
+	float: left;
+	width: 275px;
+}
+
+.reviews {
+	background-color: #ffbb88;
+	border: 10px solid black;
+	border-radius: 10px;
+	font-size: 10pt;
+	width: 255px;
+}
+
+/*.leftReview {*/
+	/*background-color: #ffbb88;*/
+	/*border: 10px solid black;*/
+	/*border-radius: 10px;*/
+	/*width: 255px;*/
+	/*float: left;*/
+/*}*/
+
+/*.rightReview {*/
+	/*background-color: #ffbb88;*/
+	/*border: 10px solid black;*/
+	/*border-radius: 10px;*/
+	/*width: 255px;*/
+	/*float: right;*/
+/*}*/
